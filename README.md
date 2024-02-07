@@ -1,5 +1,6 @@
 # M4-project1
 Applied Deep Learning- project 1
+
 Bank Marketing 
 
 After selecting bank marketing data from M1, we imported necessary libraries and loaded the dataset into Python. Subsequently, we performed feature selection by removing less significant columns and engaged in feature engineering. This involved segregating categorical and numerical data, utilizing LabelEncoder to encode categorical features, and scaling the dataset using MinMaxScaler to normalize the numerical features. Furthermore, we addressed the issue of dataset imbalance by employing a random sampler during the data split into test and train sets.
